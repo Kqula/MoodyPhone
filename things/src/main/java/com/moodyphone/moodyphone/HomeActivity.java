@@ -2,6 +2,7 @@ package com.moodyphone.moodyphone;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 
 /**
  * Skeleton of an Android Things activity.
@@ -28,5 +29,8 @@ public class HomeActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+    }
+
+    public void AddNew(View view) {
     }
 }
